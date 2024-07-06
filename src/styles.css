@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("../src/assets/css/style.css");
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
+:root {
+  --primary-color: black;
+  --secondary-color: #141414;
+  --base-orange: orange;
+  --base-white: #fff;
+  --base-green: lightgreen;
+  --base-black: black;
+  --base-red: rgb(209, 166, 166);
+  --dark-red: red;
+  --placeholder-color: rgb(77, 74, 74);
+}
+body {
+  background: var(--primary-color);
+  transition: background 2s;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .main-content {
+  height: 100vh;
+} */
